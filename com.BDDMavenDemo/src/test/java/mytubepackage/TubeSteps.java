@@ -16,7 +16,7 @@ public class TubeSteps {
 WebDriver driver=null;
 	@Given("^Open Login Page in Browser$")
 	public void Open_Login_Page_in_Browser() {
-		System.setProperty("webdriver.chrome.driver", "G:\\SELENIUM\\Workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path+"\\src\\test\\resources\\executables\\chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("I start the application");
 		driver.get("http://www.3deureka.in/");
@@ -39,7 +39,7 @@ WebDriver driver=null;
 		System.out.println(title);
 		}else if(browser.equalsIgnoreCase("chrome")){
 			
-			System.setProperty("webdriver.chrome.driver", "G:\\SELENIUM\\Workspace\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", path+"\\src\\test\\resources\\executables\\chromedriver.exe");
 			driver = new ChromeDriver();
 			System.out.println("I start the application");
 			driver.get("http://www.3deureka.in/");

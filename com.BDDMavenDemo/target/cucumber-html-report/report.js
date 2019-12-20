@@ -134,14 +134,14 @@ formatter.match({
   "location": "TubeSteps.Open_Login_Page(String)"
 });
 formatter.result({
-  "duration": 30669566600,
+  "duration": 28571749200,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Click_on_signin()"
 });
 formatter.result({
-  "duration": 129658300,
+  "duration": 144112100,
   "status": "passed"
 });
 formatter.match({
@@ -158,21 +158,21 @@ formatter.match({
   "location": "TubeSteps.Fill_required_user_and_info(String,String)"
 });
 formatter.result({
-  "duration": 3206758700,
+  "duration": 3230686600,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Click_on_login()"
 });
 formatter.result({
-  "duration": 59617200,
+  "duration": 71380000,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Close_browser()"
 });
 formatter.result({
-  "duration": 594914200,
+  "duration": 618370200,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,14 +225,14 @@ formatter.match({
   "location": "TubeSteps.Open_Login_Page(String)"
 });
 formatter.result({
-  "duration": 31571924400,
+  "duration": 30498459600,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Click_on_signin()"
 });
 formatter.result({
-  "duration": 250009200,
+  "duration": 250018300,
   "status": "passed"
 });
 formatter.match({
@@ -249,21 +249,21 @@ formatter.match({
   "location": "TubeSteps.Fill_required_user_and_info(String,String)"
 });
 formatter.result({
-  "duration": 3123528000,
+  "duration": 3099146700,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Click_on_login()"
 });
 formatter.result({
-  "duration": 228063700,
+  "duration": 226464300,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Close_browser()"
 });
 formatter.result({
-  "duration": 2759902600,
+  "duration": 4134483800,
   "status": "passed"
 });
 formatter.scenario({
@@ -316,14 +316,14 @@ formatter.match({
   "location": "TubeSteps.Open_Login_Page(String)"
 });
 formatter.result({
-  "duration": 6861683000,
+  "duration": 4197434500,
   "status": "passed"
 });
 formatter.match({
   "location": "TubeSteps.Click_on_signin()"
 });
 formatter.result({
-  "duration": 481526000,
+  "duration": 497081800,
   "status": "passed"
 });
 formatter.match({
@@ -338,115 +338,4 @@ formatter.match({
     }
   ],
   "location": "TubeSteps.Fill_required_user_and_info(String,String)"
-});
-formatter.result({
-  "duration": 143816169900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Click_on_login()"
-});
-formatter.result({
-  "duration": 397016300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Close_browser()"
-});
-formatter.result({
-  "duration": 552943700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "Login with Valid credential in eurekatube",
-  "description": "",
-  "id": "check-login-of-eurekatube-through-maven-project;login-with-valid-credential-in-eurekatube",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 18,
-  "name": "Open Login Page in Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "Click on signin",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "Fill required info",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 21,
-  "name": "Click on login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "Search for topic",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 23,
-  "name": "Open logout",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "Close browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "TubeSteps.Open_Login_Page_in_Browser()"
-});
-formatter.result({
-  "duration": 27480456700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Click_on_signin()"
-});
-formatter.result({
-  "duration": 132101300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Fill_required_info()"
-});
-formatter.result({
-  "duration": 3192262000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Click_on_login()"
-});
-formatter.result({
-  "duration": 66199100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Search_for_topic()"
-});
-formatter.result({
-  "duration": 8829061700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Open_logout()"
-});
-formatter.result({
-  "duration": 6785709200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TubeSteps.Close_browser()"
-});
-formatter.result({
-  "duration": 596159100,
-  "status": "passed"
-});
 });
