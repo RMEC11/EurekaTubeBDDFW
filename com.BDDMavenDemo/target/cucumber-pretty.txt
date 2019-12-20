@@ -1,0 +1,48 @@
+Feature: Check Login of Eurekatube through Maven Project
+
+  Scenario Outline: Test Login Eureka tube                    [90m# tubelogin.feature:3[0m
+    //Scenario: Login with Valid credential in eurekatube
+
+    [36mGiven [0m[36mOpen Login Page"<browser>"[0m
+    [36mThen [0m[36mClick on signin[0m
+    [36mWhen [0m[36mFill required user"<username>" and "<password>" info[0m
+    [36mThen [0m[36mClick on login[0m
+    [36mAnd [0m[36mClose browser[0m
+
+    Examples: 
+
+  Scenario Outline: Test Login Eureka tube                                     [90m# tubelogin.feature:13[0m
+    //Scenario: Login with Valid credential in eurekatube
+
+    [32mGiven [0m[32mOpen Login Page"[0m[32m[1mchrome[0m[32m"[0m                                              [90m# TubeSteps.Open_Login_Page(String)[0m
+    [32mThen [0m[32mClick on signin[0m                                                       [90m# TubeSteps.Click_on_signin()[0m
+    [32mWhen [0m[32mFill required user"[0m[32m[1mabhishek.designmate@gmail.com[0m[32m" and "[0m[32m[1mpassword[0m[32m" info[0m [90m# TubeSteps.Fill_required_user_and_info(String,String)[0m
+    [32mThen [0m[32mClick on login[0m                                                        [90m# TubeSteps.Click_on_login()[0m
+    [32mAnd [0m[32mClose browser[0m                                                          [90m# TubeSteps.Close_browser()[0m
+
+  Scenario Outline: Test Login Eureka tube                             [90m# tubelogin.feature:14[0m
+    //Scenario: Login with Valid credential in eurekatube
+
+    [32mGiven [0m[32mOpen Login Page"[0m[32m[1mfirefox[0m[32m"[0m                                     [90m# TubeSteps.Open_Login_Page(String)[0m
+    [32mThen [0m[32mClick on signin[0m                                               [90m# TubeSteps.Click_on_signin()[0m
+    [32mWhen [0m[32mFill required user"[0m[32m[1mqa.lead@designmate.com[0m[32m" and "[0m[32m[1mdm@1234[0m[32m" info[0m [90m# TubeSteps.Fill_required_user_and_info(String,String)[0m
+    [32mThen [0m[32mClick on login[0m                                                [90m# TubeSteps.Click_on_login()[0m
+    [32mAnd [0m[32mClose browser[0m                                                  [90m# TubeSteps.Close_browser()[0m
+
+  Scenario Outline: Test Login Eureka tube                            [90m# tubelogin.feature:15[0m
+    //Scenario: Login with Valid credential in eurekatube
+
+    [32mGiven [0m[32mOpen Login Page"[0m[32m[1mie[0m[32m"[0m                                         [90m# TubeSteps.Open_Login_Page(String)[0m
+    [32mThen [0m[32mClick on signin[0m                                              [90m# TubeSteps.Click_on_signin()[0m
+    [32mWhen [0m[32mFill required user"[0m[32m[1mberoze@designmate.com[0m[32m" and "[0m[32m[1mdm@1234[0m[32m" info[0m [90m# TubeSteps.Fill_required_user_and_info(String,String)[0m
+    [32mThen [0m[32mClick on login[0m                                               [90m# TubeSteps.Click_on_login()[0m
+    [32mAnd [0m[32mClose browser[0m                                                 [90m# TubeSteps.Close_browser()[0m
+
+  Scenario: Login with Valid credential in eurekatube [90m# tubelogin.feature:17[0m
+    [32mGiven [0m[32mOpen Login Page in Browser[0m                  [90m# TubeSteps.Open_Login_Page_in_Browser()[0m
+    [32mThen [0m[32mClick on signin[0m                              [90m# TubeSteps.Click_on_signin()[0m
+    [32mWhen [0m[32mFill required info[0m                           [90m# TubeSteps.Fill_required_info()[0m
+    [32mThen [0m[32mClick on login[0m                               [90m# TubeSteps.Click_on_login()[0m
+    [32mThen [0m[32mSearch for topic[0m                             [90m# TubeSteps.Search_for_topic()[0m
+    [32mThen [0m[32mOpen logout[0m                                  [90m# TubeSteps.Open_logout()[0m
+    [32mAnd [0m[32mClose browser[0m                                 [90m# TubeSteps.Close_browser()[0m
